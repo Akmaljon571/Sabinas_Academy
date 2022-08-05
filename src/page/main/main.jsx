@@ -1,8 +1,8 @@
-import 'main.scss'
+import './main.scss'
 
 function Main() {
     return (
-        <main> 
+        <main className='main'> 
            Main
         </main>
     )

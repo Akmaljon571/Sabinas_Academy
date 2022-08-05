@@ -1,1 +1,48 @@
-@import "../../utils/scss/var.scss"
+@import "../../utils/scss/var.scss";
+
+
+.header_nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav{
+    &_img{
+        border-radius: 5px;
+    }
+
+    &_list{
+        width: 710px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &_item{
+        font-family: Roboto;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    
+    &_link{
+        border-bottom: 1px solid transparent;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+        padding-bottom: 10px;
+
+        &:hover{
+            color: yellow;
+        }
+    }
+}
+
+.active{
+    color: yellow;
+    border-bottom: 1px solid yellow;
+}
